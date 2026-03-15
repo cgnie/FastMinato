@@ -8,7 +8,7 @@
 
 ### What is FastMinato?
 
-FastMinato is a command-line proxy tool that manages upstream proxy connections (SOCKS4/5, HTTP/HTTPS). It provides a convenient way to run commands with proxy or enable global proxy mode in your terminal.
+FastMinato is a high-performance command-line proxy tool that manages upstream proxy connections (SOCKS4/5, HTTP/HTTPS). It provides a convenient way to run commands with proxy or enable global proxy mode in your terminal.
 
 **Key Features:**
 - 🚀 **Command Wrapping**: Run individual commands with proxy (`proxy run <command>`)
@@ -18,11 +18,12 @@ FastMinato is a command-line proxy tool that manages upstream proxy connections 
 - 📝 **Configuration Management**: YAML-based configuration with validation
 - 📊 **Logging**: Rotating logs with sensitive data redaction
 - 🖥️ **Cross-Platform**: Works on Linux, macOS, and Windows
+- ⚡ **High Performance**: Daemon-based proxy server for persistent connections
 
 ### Architecture
 
 ```
-fastminato/
+FastMinato/
 ├── src/proxy_cli/
 │   ├── __init__.py          # Package initialization
 │   ├── cli.py               # CLI entry point (Click commands)
@@ -35,7 +36,7 @@ fastminato/
 │   └── platform_adapter.py  # Cross-platform shell commands
 ├── pyproject.toml           # Project configuration
 ├── README.md                # This file
-└── TASK-LIST.md             # Development tasks
+└── LICENSE                  # MIT License
 ```
 
 ### How It Works
@@ -73,11 +74,17 @@ Your Application → Local Proxy Server → Upstream Proxy → Target Website
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/fastminato.git
-cd fastminato
+git clone https://github.com/cgnie/FastMinato.git
+cd FastMinato
 
 # Install in development mode
 pip install -e .
+```
+
+Or install directly from PyPI (when published):
+
+```bash
+pip install fastminato
 ```
 
 #### 2. Initialize Configuration
@@ -552,7 +559,7 @@ MIT License - see LICENSE file for details
 
 ### FastMinato 是什么？
 
-FastMinato 是一个命令行代理工具，用于管理上游代理连接（SOCKS4/5、HTTP/HTTPS）。它提供了便捷的方式在终端中使用代理运行命令或启用全局代理模式。
+FastMinato 是一个高性能命令行代理工具，用于管理上游代理连接（SOCKS4/5、HTTP/HTTPS）。它提供了便捷的方式在终端中使用代理运行命令或启用全局代理模式。
 
 **核心特性：**
 - 🚀 **命令包装**：使用代理运行单个命令（`proxy run <命令>`）
@@ -562,11 +569,12 @@ FastMinato 是一个命令行代理工具，用于管理上游代理连接（SOC
 - 📝 **配置管理**：基于 YAML 的配置文件，支持验证
 - 📊 **日志记录**：带敏感数据脱敏的循环日志
 - 🖥️ **跨平台**：支持 Linux、macOS 和 Windows
+- ⚡ **高性能**：基于守护进程的代理服务器，支持持久连接
 
 ### 架构设计
 
 ```
-fastminato/
+FastMinato/
 ├── src/proxy_cli/
 │   ├── __init__.py          # 包初始化
 │   ├── cli.py               # CLI 入口点（Click 命令）
@@ -579,7 +587,7 @@ fastminato/
 │   └── platform_adapter.py  # 跨平台 shell 命令
 ├── pyproject.toml           # 项目配置
 ├── README.md                # 本文件
-└── TASK-LIST.md             # 开发任务列表
+└── LICENSE                  # MIT 许可证
 ```
 
 ### 工作原理
@@ -617,11 +625,17 @@ FastMinato 使用**双层代理架构**：
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/fastminato.git
-cd fastminato
+git clone https://github.com/cgnie/FastMinato.git
+cd FastMinato
 
 # 以开发模式安装
 pip install -e .
+```
+
+或直接从 PyPI 安装（发布后）：
+
+```bash
+pip install fastminato
 ```
 
 #### 2. 初始化配置

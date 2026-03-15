@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "proxy-cli-tool"
+name = "fastminato"
 version = "0.1.0"
-description = "A command-line proxy tool for managing upstream proxy connections"
+description = "FastMinato - A high-performance command-line proxy tool"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -42,9 +42,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/proxy-cli-tool"
-Repository = "https://github.com/yourusername/proxy-cli-tool"
-Issues = "https://github.com/yourusername/proxy-cli-tool/issues"
+Homepage = "https://github.com/cgnie/FastMinato"
+Repository = "https://github.com/cgnie/FastMinato"
+Issues = "https://github.com/cgnie/FastMinato/issues"
 
 [project.scripts]
 proxy = "proxy_cli.cli:main"
