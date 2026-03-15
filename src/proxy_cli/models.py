@@ -1,5 +1,9 @@
 """
 Data models for proxy-cli-tool
+
+Copyright (c) 2026 cgnie chenguang.nie@icloud.com
+
+Licensed under the MIT License.
 """
 
 from dataclasses import dataclass, field

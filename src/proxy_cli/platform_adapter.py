@@ -1,7 +1,12 @@
 """
 Platform adapter for proxy-cli-tool
 Handles cross-platform differences in setting/unsetting system proxy
+
+Copyright (c) 2026 cgnie chenguang.nie@icloud.com
+
+Licensed under the MIT License.
 """
+
 
 import os
 import platform

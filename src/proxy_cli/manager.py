@@ -1,6 +1,10 @@
 """
 Proxy manager for proxy-cli-tool
 Core coordinator for local proxy service, environment injection, and subprocess management
+
+Copyright (c) 2026 cgnie chenguang.nie@icloud.com
+
+Licensed under the MIT License.
 """
 
 import json

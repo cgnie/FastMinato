@@ -9,7 +9,7 @@ description = "A command-line proxy tool for managing upstream proxy connections
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Neil", email = "piecivalnie@gmail.com"}
+    {name = "cgnie", email = "chenguang.nie@icloud.com"}
 ]
 keywords = ["proxy", "cli", "socks", "http", "network"]
 classifiers = [
