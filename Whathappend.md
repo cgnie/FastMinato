@@ -1,3 +1,17 @@
+<a id="language-navigation--语言导航"></a>
+
+<div align="center">
+
+# 🌐 Language Navigation / 语言导航
+
+[🇬🇧 **English Version**](#english-version) | [🇨🇳 **中文版本**](#中文版本)
+
+---
+
+</div>
+
+<a id="english-version"></a>
+
 # FastMinato Execution Flow: `proxy run git pull`
 
 This document provides a detailed analysis of what happens when you execute `proxy run git pull`, including the complete call chain, data flow, and timing.
@@ -681,13 +695,27 @@ proxy run --verbose git pull
 
 For questions or issues, please visit: [GitHub Issues](https://github.com/cgnie/FastMinato/issues)
 
+<div align="center">
+
+[⬆ **Back to Navigation / 返回导航**](#language-navigation--语言导航)
+
+</div>
+
 ---
 
 ---
+
+<a id="中文版本"></a>
 
 # FastMinato 执行流程：`proxy run git pull`
 
 本文档详细说明执行 `proxy run git pull` 时发生的所有操作，包括完整的调用链、数据流和时间线。
+
+<div align="center">
+
+[⬆ **Back to Navigation / 返回导航**](#language-navigation--语言导航)
+
+</div>
 
 ---
 
